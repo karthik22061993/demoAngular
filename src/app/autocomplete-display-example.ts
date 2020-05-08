@@ -22,11 +22,9 @@ export class AutocompleteDisplayExample implements OnInit {
     {name: 'Shelley'},
     {name: 'Igor'}
   ];
-<<<<<<< HEAD
+  
   names=[{}]
-=======
-  names=[{},{},{}]
->>>>>>> 281eb4e5f945a23a2fde5c94fbf89846571fa3c3
+
   filteredOptions: Observable<User[]>;
 
   ngOnInit() {
