@@ -22,7 +22,7 @@ export class AutocompleteDisplayExample implements OnInit {
     {name: 'Shelley'},
     {name: 'Igor'}
   ];
-  
+
   names=[{}]
 
   filteredOptions: Observable<User[]>;
@@ -45,14 +45,13 @@ export class AutocompleteDisplayExample implements OnInit {
 
     return this.options.filter(option => option.name.toLowerCase().indexOf(filterValue) === 0);
   }
-<<<<<<< HEAD
+
 
   addFeature() {
     this.names.push({});
   }
 
-=======
->>>>>>> 281eb4e5f945a23a2fde5c94fbf89846571fa3c3
+
 }
 
 
